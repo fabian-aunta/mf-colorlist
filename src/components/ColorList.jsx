@@ -7,7 +7,7 @@ const ColorList = () => {
             {
                 colorList.map((color, index) =>
                 <button key={index} type="button"
-                    className="list-group-item text-white list-group-item-action"
+                    className="list-group-item list-group-item-action"
                     aria-current="true"
                     title="Copiar"
                     style={{
